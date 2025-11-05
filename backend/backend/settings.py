@@ -26,6 +26,11 @@ INSTALLED_APPS = [
     "rest_framework_simplejwt.token_blacklist",
 
     "accounts.apps.AccountsConfig",
+    
+    "backend.rutas.apps.RutasConfig",
+
+
+
 ]
 
 MIDDLEWARE = [

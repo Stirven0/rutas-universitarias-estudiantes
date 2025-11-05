@@ -19,7 +19,8 @@ urlpatterns = [
     path("api/schema/", SpectacularAPIView.as_view(), name="schema"),
     path("api/docs/", SpectacularSwaggerView.as_view(url_name="schema"), name="swagger-ui"),
         # Para ViewSet
-    path('api/', include('accounts.url')),
+    path('api/', include('backend.rutas.urls')),
+    
 ]
 
 if settings.DEBUG:
