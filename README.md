@@ -119,8 +119,7 @@ rutas-universitarias-estudiantes/
     │   ├── settings.py               # Configuración Django
     │   ├── urls.py                   # Rutas principales
     │   ├── asgi.py                   # ASGI (async)
-    │   ├── wsgi.py                   # WSGI (producción)
-    │   └── __pycache__/
+    │   └── wsgi.py                   # WSGI (producción)
     │
     ├── accounts/                     # Autenticación y RBAC
     │   ├── __init__.py
@@ -136,17 +135,9 @@ rutas-universitarias-estudiantes/
     │   ├── signals.py                # Señales Django
     │   ├── exceptions.py             # Excepciones custom
     │   ├── tests.py                  # Tests unitarios
-    │   ├── __pycache__/
-    │   ├── management/
-    │   │   └── commands/
-    │   │       ├── seed_rbac.py      # Comando cargar RBAC
-    │   │       └── __pycache__/
-    │   ├── migrations/
-    │   │   ├── __init__.py
-    │   │   ├── 0001_initial.py
-    │   │   ├── 0002_alter_useractivitylog_device.py
-    │   │   └── __pycache__/
-    │   └── __pycache__/
+    │   └── management/
+    │       └── commands/
+    │           └── seed_rbac.py      # Comando cargar RBAC
     │
     ├── rutas/                        # Gestión de rutas y buses
     │   ├── __init__.py
@@ -156,14 +147,7 @@ rutas-universitarias-estudiantes/
     │   ├── serializer.py             # Serializadores
     │   ├── views.py                  # ViewSets
     │   ├── urls.py                   # Rutas /api/rutas/
-    │   ├── tests.py                  # Tests
-    │   ├── __pycache__/
-    │   ├── migrations/
-    │   │   ├── __init__.py
-    │   │   ├── 0001_initial.py
-    │   │   ├── 0002_alter_bus_ruta.py
-    │   │   └── __pycache__/
-    │   └── __pycache__/
+    │   └── tests.py                  # Tests
     │
     ├── gps/                          # Monitoreo GPS
     │   ├── __init__.py
@@ -173,13 +157,7 @@ rutas-universitarias-estudiantes/
     │   ├── serializers.py            # Serializadores
     │   ├── views.py                  # ViewSets GPS
     │   ├── urls.py                   # Rutas /api/gps/
-    │   ├── tests.py                  # Tests
-    │   ├── __pycache__/
-    │   ├── migrations/
-    │   │   ├── __init__.py
-    │   │   ├── 0001_initial.py
-    │   │   └── __pycache__/
-    │   └── __pycache__/
+    │   └── tests.py                  # Tests
     │
     ├── gestion_cupo/                 # Control de cupos
     │   ├── __init__.py
@@ -189,13 +167,7 @@ rutas-universitarias-estudiantes/
     │   ├── serializers.py            # Serializadores
     │   ├── views.py                  # ViewSets cupos
     │   ├── urls.py                   # Rutas /api/cupos/
-    │   ├── tests.py                  # Tests
-    │   ├── __pycache__/
-    │   ├── migrations/
-    │   │   ├── __init__.py
-    │   │   ├── 0001_initial.py
-    │   │   └── __pycache__/
-    │   └── __pycache__/
+    │   └── tests.py                  # Tests
     │
     └── paradas/                      # Administración de paradas
         ├── __init__.py
@@ -205,13 +177,7 @@ rutas-universitarias-estudiantes/
         ├── serializers.py            # Serializadores
         ├── views.py                  # ViewSets paradas
         ├── urls.py                   # Rutas /api/paradas/
-        ├── tests.py                  # Tests
-        ├── __pycache__/
-        ├── migrations/
-        │   ├── __init__.py
-        │   ├── 0001_initial.py
-        │   └── __pycache__/
-        └── __pycache__/
+        └── tests.py                  # Tests
 ```
 
 ---
